@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+
 from pine.api.routes import router
 
 app = FastAPI(
